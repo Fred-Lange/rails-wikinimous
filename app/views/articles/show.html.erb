@@ -1,0 +1,9 @@
+<h1>Show - Article details</h1>
+
+
+<h2><%= @article.title %></h2>
+<p><%= @article.content %></p>
+
+<%= link_to "Return to all articles", articles_path %>
+
+<%= link_to "Edit article", edit_article_path(@article) %>
